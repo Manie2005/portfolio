@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="display-4">WELCOME TO MY PORTFOLIO</h1>
+                <button id="theme-toggle" class="btn btn-theme">
+                    <i class="fas fa-moon"></i> Dark Mode
+                </button>
+            </div>
+            <nav class="nav justify-content-center mt-3">
+                <a class="nav-link mx-3" href="#about">About</a>
+                <a class="nav-link mx-3" href="#projects">Projects</a>
+                <a class="nav-link mx-3" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="about-content p-4 rounded">
+                        <p class="lead"><i class="fas fa-code"></i> Hi, I’m Immanuel, a passionate and dedicated <strong>Backend Engineer</strong> specializing in <strong>NestJS</strong> with over <strong>2+ years</strong> of experience. Throughout my career, I’ve had the opportunity to work on <strong>10+ projects</strong>, honing my skills in building scalable, efficient, and secure backend systems.</p>
+                        <p><i class="fas fa-graduation-cap"></i> I am a proud alumnus of <strong>Start Innovation Hub, Akwa Ibom</strong>, where I gained my foundational knowledge and certifications in software development. My expertise lies in working with databases like <strong>SQL, MongoDB, and PostgreSQL</strong>, and I also have a basic understanding of frontend technologies such as <strong>CSS</strong> and <strong>Vanilla JavaScript</strong>.</p>
+                        <p><i class="fas fa-rocket"></i> Currently, I’m expanding my skill set by diving deeper into <strong>Node.js</strong> and exploring <strong>Express.js</strong> to broaden my backend development capabilities. I’m always eager to learn, grow, and collaborate on meaningful projects that solve real-world problems.</p>
+                        <p><i class="fas fa-basketball-ball"></i> When I’m not coding, you’ll find me cheering for the <strong>Los Angeles Lakers</strong> and admiring the skills of my favorite football player, <strong>Vinicius Jr</strong>. I’m always open to connecting with like-minded individuals, learning new technologies, and building high-quality projects that make an impact.</p>
+                        <p><i class="fas fa-handshake"></i> Let’s connect and create something amazing together! 🚀</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">PROJECTS</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Data-Collection Backend API</h3>
+                            <p class="card-text">A RESTful API for handling user authentication.</p>
+                            <ul>
+                                <li><strong>Technologies:</strong> NestJS, TypeScript, MongoDB, JWT, Cloud, Postman</li>
+                                <li><strong>My Role:</strong> Designed API architecture, implemented authentication, and optimized database queries.</li>
+                            </ul>
+                            <a href="https://github.com/Manie2005/Datacollect" target="_blank" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Nammi</h3>
+                            <p class="card-text">Backend for Nammi- A COSMOS blockchain powered volunteering platform with automated task management and $ATOM payments.</p>
+                            <ul>
+                                <li><strong>Technologies:</strong> Node.js, Express.js, PostgreSQL, REST API</li>
+                                <li><strong>My Role:</strong> Built the entire backend, including database design and API endpoints.</li>
+                            </ul>
+                            <a href="https://github.com/Manie2005/nammi" target="_blank" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">CONTACT </h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead text-center">Feel free to reach out to me or check out my work:</p>
+                    <ul class="list-unstyled text-center">
+                        <li class="mb-3"><i class="fas fa-envelope"></i> Email: <a href="mailto:immanueliniobong@gmail.com">immanueliniobong@gmail.com</a></li>
+                        <li class="mb-3"><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Manie2005" target="_blank">github.com/Manie2005</a></li>
+                        <li class="mb-3"><i class="fab fa-twitter"></i> Twitter: <a href="https://x.com/youfound_manie" target="_blank">twitter.com/youfound_manie</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2023 Immanuel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
